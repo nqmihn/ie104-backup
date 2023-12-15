@@ -1,0 +1,61 @@
+{
+  "homepage": {
+    "title1": "There's a way to ask",
+    "title2": " You don't want to make a boring form.Create a type form instead-andmake everyone happy",
+    "start1": "Doing Quiz",
+    "start2": "Get's started. It's free"
+  },
+  "header": {
+    "home": "Home",
+    "quiz": "Quiz",
+    "admin": "Admin",
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "auth": {
+    "title": "Don't have an account yet?",
+    "signup": "Sign Up",
+    "password": "Password",
+    "username": "Username",
+    "forgot": "Forgot Password",
+    "login": "Login",
+    "signup-btn": "Create my free account",
+    "signup-title": "Already have an account?",
+    "homepage": "Go to Homepage"
+  },
+  "quiz": {
+    "doing": "Doing Quiz"
+  },
+  "profile": {
+    "info": "User Information",
+    "change-pwd": "Change Password",
+    "history": "History",
+    "save": "Save",
+    "current-pwd": "Current Password",
+    "new-pwd": "New Password",
+    "confirmed-pwd": "Confirmed Password",
+    "table-history": {
+      "q-description": "Quiz Description",
+      "t-question": "Total Question",
+      "t-correct": "Total Correct",
+      "time": "Time"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Analytics Dashboard",
+      "t-user": "Total User",
+      "t-quiz": "Total Quiz",
+      "t-question": "Total Question",
+      "t-answer": "Total Answer"
+    },
+    "manage": {
+      "user": "Manage User",
+      "quiz": "Manage Quiz",
+      "question": "Manage Question"
+    }
+  }
+}

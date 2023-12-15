@@ -1,0 +1,96 @@
+.register-container {
+  .header {
+    height: 45px;
+    // text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 5px 100px 0 100px;
+
+    button {
+      color: black !important;
+      padding: 3px 15px;
+      margin-left: 15px;
+      border-radius: 5px;
+      background: #f9f9f9;
+      border: 1px solid;
+
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+
+  .title {
+    font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .welcome {
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .content-form {
+    input {
+      margin-bottom: 15px;
+      margin-top: 3px;
+    }
+    .verify-container {
+      display: flex;
+      gap: 10px;
+      input {
+        margin: 0;
+      }
+      button {
+        height: 50px;
+        width: 300px;
+        margin: 0;
+      }
+    }
+    .btn-submit {
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      margin: 20px 0;
+      color: white;
+      background: black;
+      &:disabled {
+        background: #dddddd;
+        color: #afafaf;
+        cursor: no-drop;
+      }
+    }
+    .btn-change {
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      margin: 20px 0;
+      color: white;
+      background: blue;
+      &:hover {
+        background: rgb(55, 116, 230);
+      }
+    }
+
+    .back {
+      cursor: pointer;
+    }
+
+    .pass-group {
+      position: relative;
+
+      .icons-eye {
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+      }
+    }
+  }
+}

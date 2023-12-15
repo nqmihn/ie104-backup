@@ -1,0 +1,37 @@
+.info-container {
+  display: flex;
+  align-items: center;
+  .user-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .container {
+      .row {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image {
+      width: 800px;
+      height: 200px;
+    }
+    .add-icon {
+      font-size: 30px;
+      color: rgb(0, 162, 255);
+      cursor: pointer;
+    }
+  }
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,74 @@
+.login-container {
+  .loader-icon {
+    margin-right: 7px;
+    top: 2px;
+    animation: spin 1s infinite linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: scale(1) rotate(0deg);
+    }
+    to {
+      transform: scale(1) rotate(360deg);
+    }
+  }
+  .header {
+    height: 45px;
+    padding: 5px 100px 5px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    button {
+      color: black !important;
+      padding: 3px 15px;
+      margin-left: 15px;
+      border-radius: 5px;
+      background: #f9f9f9;
+      border: 1px solid;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+  .title {
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .welcome {
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .content-form {
+    input {
+      margin-bottom: 15px;
+      margin-top: 3px;
+    }
+    button {
+      width: 100%;
+      height: 40px;
+      border: none;
+      margin: 20px 0;
+      border-radius: 5px;
+      color: white;
+      background: black;
+      &:disabled {
+        background: #dddddd;
+        color: #afafaf;
+        cursor: no-drop;
+      }
+    }
+    .back {
+      cursor: pointer;
+    }
+    .forgot-password {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

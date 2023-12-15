@@ -1,0 +1,61 @@
+{
+  "homepage": {
+    "title1": "Có rất nhiều điều để hỏi",
+    "title2": " Bạn không muốn tạo một biểu mẫu nhàm chán. Thay vào đó, hãy tạo một biểu mẫu kiểu và làm cho mọi người hạnh phúc",
+    "start1": "Làm trắc nghiệm",
+    "start2": "Tạo tài khoản miễn phí"
+  },
+  "header": {
+    "home": "Trang Chủ",
+    "quiz": "Trắc Nghiệm",
+    "admin": "Quản Lý",
+    "signin": "Đăng Nhập",
+    "signup": "Đăng Ký",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ của bạn",
+    "settings": "Cài đặt"
+  },
+  "auth": {
+    "title": "Chưa có tài khoản?",
+    "signup": "Đăng Ký",
+    "password": "Mật Khẩu",
+    "username": "Tên hiển thị",
+    "forgot": "Quên Mật Khẩu",
+    "login": "Đăng Nhập",
+    "signup-btn": "Tạo tài khoản mới miễn phí",
+    "signup-title": "Đã có tài khoản?",
+    "homepage": "Trở về Trang Chủ"
+  },
+  "quiz": {
+    "doing": "Làm bài"
+  },
+  "profile": {
+    "info": "Thông tin người dùng",
+    "change-pwd": "Đổi mật khẩu",
+    "history": "Lịch sử bài thi",
+    "save": "Lưu",
+    "current-pwd": "Mật khẩu hiện tại",
+    "new-pwd": "Mật khẩu mới",
+    "confirmed-pwd": "Xác nhận mật khẩu",
+    "table-history": {
+      "q-description": "Bài thi",
+      "t-question": "Tổng số câu",
+      "t-correct": "Tổng số câu đúng",
+      "time": "Thời gian"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Thống kê số liệu",
+      "t-user": "Tổng người dùng",
+      "t-quiz": "Tổng số bài thi",
+      "t-question": "Tổng số câu hỏi",
+      "t-answer": "Tổng số câu trả lời"
+    },
+    "manage": {
+      "user": "Quản lý người dùng",
+      "quiz": "Quản lý bài thi",
+      "question": "Quản lý câu hỏi"
+    }
+  }
+}
